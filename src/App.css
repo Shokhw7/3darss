@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+    justify-content: center;
+    color: black;
+}
+
+.form-container {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+  flex-direction: column;
+  display: flex;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.form-container label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.form-container input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-container button {
+  padding: 0.5rem 2rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #1d4ed8;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+
+.user-card {
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.user-card p {
+  margin: 0 0 1rem;
+  color: #555;
+}
+
+.user-card button {
+  padding: 0.4rem 0.75rem;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-card button:hover {
+  background-color: #b91c1c;
+}
